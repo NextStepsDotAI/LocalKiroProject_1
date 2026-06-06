@@ -3,6 +3,9 @@ from src.c01_basics import variables_scoping
 from src.c01_basics import variables_scoping_advanced
 
 def run():
+
+    print(f"🚀 Trigger File active! My internal __name__ is: '{__name__}'")
+    
     print("=== TEST 1: GLOBAL SCOPE BASICS ===")
     variables_scoping.read_global()  # Prints 100
     variables_scoping.modify_global_with_keyword()

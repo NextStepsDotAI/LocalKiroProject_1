@@ -1,8 +1,8 @@
 # src/c01_basics/variables_scoping.py
-
+# Add this at the absolute top of the file, outside any functions
+print(f"🎬 Loading file! My internal __name__ is currently: '{__name__}'")
 # A variable defined at the top level of the file is a GLOBAL variable
 my_global = 100
-
 
 def read_global():
     # Reading a global variable is freely allowed from anywhere
