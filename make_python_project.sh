@@ -81,8 +81,8 @@ EOF
 # 8. Initialize Git inside the new project directory
 echo "🌱 Initializing Git repository..."
 cd "$PROJECT_NAME"
-git init -q
-git branch -M main
+#git init -q
+#git branch -M main
 
 # 9. Make an initial local commit
 git add .
